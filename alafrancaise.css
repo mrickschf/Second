@@ -1,0 +1,288 @@
+/*Général*/
+html
+
+/*Nav*/
+.location {
+    width: 100%;
+    justify-content: center;
+    box-shadow: 0px -3px 0px #e4e8dd
+}
+
+.iconSize{
+margin-right: 10px;
+}
+
+.backSizelogo{
+    padding-right: 68px;
+    padding-left: 43px;
+}
+
+.sizeLogo {
+    padding: 16px;
+    margin-left: 98px;
+    margin-right: 98px;
+}
+
+.backSizepalette{
+    margin: -28px;
+    margin-right: -36px;
+    padding: 22px;
+    padding-right: 140px;
+    padding-left: 119px;
+    border-radius: 31px 31px 0px 0px
+}
+.titrePalette{
+    margin-right: 30px;
+    margin-left: -50px;
+}
+.iconPalette{
+    margin-left: 52px;
+    margin-right: -35px
+}
+
+.fleche{
+    position: absolute;
+    margin-left: 45px;
+}
+.bordureButton{
+    border: none;
+    cursor: pointer;
+    }
+
+/*Main*/
+.texteAnime {
+    position: relative;
+    cursor: pointer;
+}
+
+/*carrevert*/
+.carreVert {
+    position: absolute;
+    top: -8px;
+    right: -112px;
+    width: 85px;
+    height: 75px;
+    background-color: #99E2D0;
+    transition: all 0.5s ease-out;
+    border-radius: 0px 15px 15px 0px;
+    opacity: 1;
+}
+  
+
+.texteAnime:hover .carreVert {
+    right: -11px;
+    opacity: 1;
+}
+
+/*Encoche*/
+.texteAnime:hover .encocheBlanche {
+    animation: spin 550ms linear;
+}
+
+.encocheBlanche {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    width: 45px;
+    height: 32px;
+    color: white;
+
+}
+
+.encocheBlanche:hover {
+    animation: spin 550ms linear;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+.animatedText {
+    opacity:0;
+    animation: defilement 1s forwards;
+         }
+
+.animation1{
+    animation-delay: 600ms;
+}
+.animation2{
+    animation-delay: 800ms;
+}
+.animation3{
+    animation-delay: 1000ms;
+}
+.animation4{
+    animation-delay: 1200ms;
+}
+
+@keyframes defilement {
+    0% {
+        transform: translateY(0%);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(-10%);
+        opacity: 1;
+      }
+      }
+.animatedText {
+    opacity:0;
+    animation: defilement 1s forwards;
+         }
+
+.animation1{
+    animation-delay: 600ms;
+}
+.animation2{
+    animation-delay: 800ms;
+}
+.animation3{
+    animation-delay: 1000ms;
+}
+
+@keyframes defilement {
+    0% {
+        transform: translateY(0%);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(-10%);
+        opacity: 1;
+      }
+      }
+.menu{
+    padding: 8px;
+    margin-right:-8px;
+}
+.fa-solid {
+    margin-right: 15px;
+}
+.menuCardentree{
+    background-color: white;
+    border-radius: 15px;
+    padding: 11px;
+    padding-top: 5px;
+    padding-bottom: 9px;
+    margin-bottom: 10px;
+    box-shadow: 0px 5px 10px #999;
+    overflow: hidden;
+    
+}
+
+.menuCardplat{
+    background-color: white;
+    border-radius: 15px;
+    padding: 11px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0px 5px 10px #999;
+    overflow: hidden;
+}
+
+.menuCarddessert{
+    background-color: white;
+    border-radius: 15px;
+    padding: 11px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    margin-bottom: 10px;
+    box-shadow: 0px 5px 10px #999;
+    overflow: hidden;
+}
+main h4{
+    margin-top: -8px;
+    margin-bottom: -8px;
+    font-size: 14px;
+}
+main h3{
+    margin-top: 3px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+section{
+    margin-bottom: 25px;
+}
+.menuPrix{
+    font-weight: bold;
+    font-size: 18.72px;
+}
+
+div.flexBetween.column.backGrisclair {
+    text-align: center;
+    padding: 10px 0px 55px;
+}
+
+.bordure{
+    width: 48px;
+}
+
+.plats{
+    padding-left: 30px;
+}
+
+/*Boutton Commander*/
+.commanderButton {
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+}
+.commanderBordure {
+    border-radius: 20px;
+    border: none;
+    height: 54px;
+    width: 300px;
+    background-image: linear-gradient(to bottom right, #FF79DA , #9356DC);
+}
+.button{
+    margin-left: 75px;
+    margin-bottom: 30px;
+    margin-top: 35px;
+}
+/*Footer*/
+.blocFoot {
+    padding: 10px;
+}
+
+.imgFoot {
+    filter: invert(100%);
+}
+
+section.blocFoot.backGrisfonce {
+    padding: 27px;
+    margin-right: -8px;
+    margin-bottom: 0px;
+}
+
+.footerContain p {
+    margin: 5px;
+
+}
+
+.footerContain {
+    margin-top: 10px;
+    margin-left: -5px;
+    color: white;
+    font-weight: bold;
+}
+
+.iconProp {
+    justify-content: flex-start;
+    margin-left: 0px
+}
+
+.iconPart {
+    justify-content: flex-start;
+    margin-left: 0px;
+}
+
+.fa-solid {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+i.fa-solid.fa-handshake-angle {
+    font-size: 11px;
+}
